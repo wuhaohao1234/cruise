@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true, // 装饰器功能
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@api/*": ["src/spi/*"],
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
