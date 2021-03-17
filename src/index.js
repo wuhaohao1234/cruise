@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { render } from "react-dom";
-import Hello from '@components/Hello'
+import Headers from '@components/Headers'
+import '@styles/global.scss'
+
 export default function App() {
     return <>
-        <Hello/>
+        <Headers/>
     </>
 }
 
