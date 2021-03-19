@@ -1,0 +1,9 @@
+.main {
+  background-color: #f3f3f3;
+  .container {
+    width: 1200px;
+    height: calc(100vh - 75px);
+    margin: 0 auto;
+    display: flex;
+  }
+}

@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  color: #fff;
+  line-height: 45px;
+  padding: 0 30px;
+  .icon {
+    margin-right: 20px;
+    img {
+      height: 45px;
+      display: block;
+    }
+  }
+}
